@@ -14,4 +14,4 @@ It will then add these characters to a new list, shuffle it, and outpt it as a s
 This program is fully secure as it does not use the 'random' library, but the 'secrets' library instead.
 
 ### Future expansion
-I plan to implement a full GUI for easier use and eventually add this to a larger password manager program.
+I plan to implement a full GUI for easier use and eventually add this to a larger password manager program, with the password generator built into the program.
