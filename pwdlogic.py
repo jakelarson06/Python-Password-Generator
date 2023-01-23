@@ -50,7 +50,7 @@ while True:
     elif general_or_custom == "custom" or general_or_custom == "c":
         print(custom())
     elif general_or_custom == "exit" or general_or_custom == "x":
-        print("Program terminated")
+        print("Program terminated, thank you")
         break
     else:
         print('Error, invalid input. Please enter a valid command')
