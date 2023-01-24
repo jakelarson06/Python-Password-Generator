@@ -7,8 +7,8 @@ def input_error_handler(prompt):
     while True:
         try:
             num = int(input(prompt))
-            if num < 0:
-                print("Please enter a positive number")
+            if num < 0 or num > 1000000:
+                print("Please enter a positive number no greater than one million")
                 continue
             break
         except ValueError:
